@@ -6,5 +6,7 @@ $nombresEnters =  [
     '4',
     '5'
 ];
-print_r($nombresEnters);
+for ($i = 0; $i < count($nombresEnters); $i++) {
+    echo $nombresEnters[$i] . "\n";
+}
 ?>
